@@ -1,0 +1,12 @@
+Git init
+Git clone
+Git add <path>
+	Any file at/under folder
+Git add . (stage everything in current directory)
+Git status --here's where you are at (stuff can be in index)
+Git Commit
+Git config --global -e
+Git config --global user.email “email”
+Git pull
+Git push
+

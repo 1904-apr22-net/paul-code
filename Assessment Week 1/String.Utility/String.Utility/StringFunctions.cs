@@ -19,13 +19,18 @@ namespace String.Utility
                 }
                 if (char.IsLetterOrDigit(word[i]))
                 {
-                    if (char.IsLetterOrDigit(RString[word.Length - 1 - count]))
+                    if (char.IsLetterOrDigit(word[word.Length - 1 - count]))
                     {
-                        if (char.ToLower(word[i]) != char.ToLower(RString[word.Length - 1 - count]))
+                        char a = word[i];
+                        char b = word[word.Length - 1 - count];
+                        int count1 = count;
+
+                         int test1 = 0;
+
+                        if (char.ToLower(word[i]) != char.ToLower(word[word.Length - 1 - count]))
                         {
                             test = false;
-                            char a = word[i];
-                            char b = RString[word.Length - 1 - count]; 
+                            
                         }
                     }
                     
@@ -41,7 +46,7 @@ namespace String.Utility
             Console.WriteLine("Hello World!");
             StringFunctions f = new StringFunctions();
             //f.Palindrome("Paul");
-            Console.WriteLine(f.Palindrome("Paul"));
+            Console.WriteLine(f.Palindrome("Pap"));
         }
     }
 }

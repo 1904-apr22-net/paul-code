@@ -15,7 +15,7 @@ namespace XUnitTestProject1
             //act
             bTest = f.Palindrome("pap");
             //assert
-            Assert(bTest);
+            Assert.True(bTest);
         }
     }
 }

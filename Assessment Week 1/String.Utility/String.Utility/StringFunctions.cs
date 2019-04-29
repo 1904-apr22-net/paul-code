@@ -7,9 +7,7 @@ namespace String.Utility
         public bool Palindrome(string word)
         {
             bool test = true;
-            char[] reversed = word.ToCharArray();
-            Array.Reverse(reversed);
-            string RString = new string(reversed);
+
             int count = 0;
             for (int i = 0; i < word.Length/2; i++)
             {
@@ -46,7 +44,7 @@ namespace String.Utility
             Console.WriteLine("Hello World!");
             StringFunctions f = new StringFunctions();
             //f.Palindrome("Paul");
-            Console.WriteLine(f.Palindrome("Pap"));
+            Console.WriteLine(f.Palindrome("Pa, p"));
         }
     }
 }

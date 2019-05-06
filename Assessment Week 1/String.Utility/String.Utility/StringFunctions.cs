@@ -44,7 +44,7 @@ namespace String.Utility
             Console.WriteLine("Hello World!");
             StringFunctions f = new StringFunctions();
             //f.Palindrome("Paul");
-            Console.WriteLine(f.Palindrome("Pa, p"));
+            Console.WriteLine(f.Palindrome(""));
         }
     }
 }

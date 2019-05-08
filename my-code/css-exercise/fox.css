@@ -1,0 +1,31 @@
+main{
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
+    height: 90%;
+    width: 75%;
+    background-color: rgb(236, 219, 192);
+}
+h1{
+    padding-left: 5%
+}
+
+div{
+    border-style: dotted;
+    border-color: orange;
+    border-width: 10px;
+    overflow-y: scroll;
+    width: 200px;
+    height: 200px;
+    margin-left: 5%;
+    background-color: rgb(199, 199, 16);
+    margin-bottom: 20%;
+}
+img{
+    border-style:solid;
+    border-width:10px;
+    margin-left: 5%;
+    border-color: orange;
+    margin-bottom: 5%;
+
+}
